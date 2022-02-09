@@ -1,5 +1,7 @@
 body {
+  background-color: var(--bg-color-default);
   font-family: var(--font-family-default);
   font-size: var(--font-size-default);
   word-spacing: var(--word-spacing-default);
+  margin: var(--margin-default);
 }
