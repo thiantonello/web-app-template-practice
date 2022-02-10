@@ -1,0 +1,24 @@
+.input--focused {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  outline: calc(0.20 * var(--font-size-default)) solid var(--color-cian);
+  opacity: 1;
+}
+
+.input--invalid {
+  background-color: var(--color-salmon-bg);
+  color: var(--color-red);
+  font-weight: var(--font-weight-bold);
+}
+
+.input--valid {
+  background-color: var(--color-green-bg);
+  color: var(--color-dark-green);
+  font-weight: var(--font-weight-bold);
+}
+
+.input--required {
+  background-color: var(--color-yellow-bg);
+  color: var(--color-gold);
+  font-weight: var(--font-weight-bold);
+}

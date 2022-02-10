@@ -1,0 +1,13 @@
+button {
+  border: var(--border-default);
+  border-radius: var(--border-radius);
+  color: var(--color-black);
+  font-size: var(--font-size-default);
+  padding: 1em;
+  width: calc(12 * var(--font-size-default));
+}
+
+button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

@@ -1,0 +1,42 @@
+input {
+  appearance: none;
+  border: none;
+  border-radius: var(--border-radius);
+  border-color: transparent;
+  color: var(--color-black);
+  font-size: var(--font-size-default);
+  opacity: 0.75;
+  outline: none;
+  padding: 1em;
+  width: calc(20 * var(--font-size-default));
+}
+
+input:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+input:focus {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  opacity: 1;
+  outline: calc(0.20 * var(--font-size-default)) solid var(--color-cian);
+}
+
+input:required {
+  background-color: var(--color-yellow-bg);
+  color: var(--color-gold);
+  font-weight: var(--font-weight-bold);
+}
+
+input:required:invalid {
+  background-color: var(--color-salmon-bg);
+  color: var(--color-red);
+  font-weight: var(--font-weight-bold);
+}
+
+input:required:valid {
+  background-color: var(--color-green-bg);
+  color: var(--color-dark-green);
+  font-weight: var(--font-weight-bold);
+}

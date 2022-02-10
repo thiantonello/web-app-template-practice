@@ -1,0 +1,67 @@
+/* Yellow button */
+.button--yellow {
+  background-color: var(--bg-color-default);
+  border-color: var(--color-yellow);
+}
+
+.button--yellow:hover {
+  background-color: var(--color-yellow);
+}
+
+.button--yellow:active {
+  background-color: var(--color-mustard);
+  border-color: var(--color-mustard);
+}
+
+.button--yellow:disabled {
+  background-color: var(--color-yellow);
+}
+
+/* Yellow button design-system display */
+.button--yellow--hovered {
+  background-color: var(--color-yellow);
+  pointer-events: none;
+}
+
+.button--yellow--pressed {
+  background-color: var(--color-mustard);
+  border-color: var(--color-mustard);
+  pointer-events: none;
+}
+
+
+/* Blue button */
+.button--blue {
+  border-color: var(--color-cian);
+  background-color: var(--bg-color-default);
+}
+
+.button--blue:hover {
+  background-color: var(--color-cian);
+  color: var(--color-white);
+}
+
+.button--blue:active {
+  border-color: var(--color-blue);
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.button--blue:disabled {
+  background-color: var(--color-cian);
+  color: var(--color-white);
+}
+
+/* Blue button design-system display */
+.button--blue--hovered {
+  background-color: var(--color-cian);
+  color: var(--color-white);
+  pointer-events: none;
+}
+
+.button--blue--pressed {
+  border-color: var(--color-blue);
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  pointer-events: none;
+}

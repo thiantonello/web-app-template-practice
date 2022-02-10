@@ -1,6 +1,12 @@
-@import 'settings/_variables.css';
+@import 'settings/_defaults.css';
+@import 'settings/_colors.css';
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
 @import 'elements/_body.css';
-@import 'elements/_header.css';
+@import 'elements/_button.css';
+@import 'elements/_heading.css';
+@import 'elements/_input.css';
 @import 'elements/_paragraph.css';
+@import 'components/_button.css';
+@import 'components/_div.css';
+@import 'components/_input.css';

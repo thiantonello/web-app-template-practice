@@ -1,26 +1,16 @@
 :root {
-  /* colors*/
-  --color-black: #000000;
-  --color-white: #ffffff;
-  --color-silver: #c0c0c0;
-  --color-gray: #808080;
-  --color-red: #ff0000;
-  --color-salmon: #f26c6c;
-  --color-mustard: #ffd21d;
-  --color-yellow: #ffe21d;
-  --color-blue: #248bff;
-  --color-cian: #24afff;
-  --color-green: #27b667;
-  --color-lime: #a0e21d;
-
   /* fonts */
   --font-family-default: 'Montserrat', sans-serif;
 
   /* font-sizes */
   --font-size-default: 16px;
 
+  /* font-weights */
+  --font-weight-default: 400;
+  --font-weight-bold: 700;
+
   /* spaces */
-  --space-default: var(--font-size-default);
+  --space-default: 16px;
 
   --space-tiny: calc(0.25 * var(--space-default));
   --space-small: calc(0.5 * var(--space-default));
@@ -30,4 +20,11 @@
 
   /* word-spacing */
   --word-spacing-default: calc(0.25 * var(--font-size-default));
+
+  /* borders */
+  --border-default: 4px solid;
+  --border-radius: 16px;
+
+  /* margins */
+  --margin-default: var(--space-medium);
 }
