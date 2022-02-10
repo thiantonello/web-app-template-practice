@@ -15,18 +15,29 @@
   <h1>Design System</h1>
   <br>
   <h2>BUTTONS</h2>
-  <div>
+  <div class="div--design-system">
     <button class="button--yellow">STATIC</button>
     <button class="button--yellow button--yellow--hovered">HOVERED</button>
     <button class="button--yellow button--yellow--pressed">PRESSED</button>
     <button class="button--yellow" disabled>DISABLED</button>
   </div>
-  <br>
-  <div>
+  <div class="div--design-system">
     <button class="button--blue">STATIC</button>
     <button class="button--blue button--blue--hovered">HOVERED</button>
     <button class="button--blue button--blue--pressed">PRESSED</button>
     <button class="button--blue" disabled>DISABLED</button>
+  </div>
+  <br>
+  <h2>INPUT FIELDS</h2>
+  <div class="div--design-system">
+    <input class="input" type="text" placeholder="Static input placeholder" onfocus="this.placeholder=''">
+    <input class="input--focused" type="text" placeholder="Active input text">
+    <input type="text" placeholder="Disabled input" disabled>
+  </div>
+  <div class="div--design-system">
+    <input class="input--invalid" type="text" placeholder="Input error!" onfocus="this.placeholder=''">
+    <input class="input--valid" type="text" placeholder="Input success :)" onfocus="this.placeholder=''">
+    <input class="input--required" type="text" placeholder="This needs your attention" onfocus="this.placeholder=''">
   </div>
 </body>
 

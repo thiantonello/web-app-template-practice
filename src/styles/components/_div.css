@@ -1,0 +1,7 @@
+.div--design-system {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: calc(2 * var(--space-medium));
+}
