@@ -1,6 +1,6 @@
 /* Yellow button */
 .button--yellow {
-  background-color: var(--bg-color-default);
+  background-color: transparent;
   border-color: var(--color-yellow);
 }
 
