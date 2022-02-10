@@ -1,7 +1,7 @@
 input {
   appearance: none;
   border: none;
-  border-radius: var(--border-radious);
+  border-radius: var(--border-radius);
   border-color: transparent;
   color: var(--color-black);
   font-size: var(--font-size-default);

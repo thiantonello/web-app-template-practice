@@ -10,7 +10,7 @@
   --font-weight-bold: 700;
 
   /* spaces */
-  --space-default: var(--font-size-default);
+  --space-default: 16px;
 
   --space-tiny: calc(0.25 * var(--space-default));
   --space-small: calc(0.5 * var(--space-default));
@@ -22,8 +22,8 @@
   --word-spacing-default: calc(0.25 * var(--font-size-default));
 
   /* borders */
-  --border-default: calc(0.25 * var(--font-size-default)) solid;
-  --border-radious: calc(2 * var(--font-size-default));
+  --border-default: 4px solid;
+  --border-radius: 16px;
 
   /* margins */
   --margin-default: var(--space-medium);
