@@ -23,7 +23,7 @@
 
   /* borders */
   --border-default: 4px solid;
-  --border-radius: 16px;
+  --border-radius: 32px;
 
   /* margins */
   --margin-default: var(--space-medium);

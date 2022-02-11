@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85vh;
+}
+
+.hero__banner {
+  font-size: calc(5 * var(--font-size-default));
+}
