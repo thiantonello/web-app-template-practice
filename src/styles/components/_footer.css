@@ -1,0 +1,39 @@
+.footer {
+  padding: calc(2 * var(--margin-default)) calc(8 * var(--margin-default));
+  padding-top: 0;
+  display: flex;
+}
+
+.footer__placeholder {
+  width: 10%;
+}
+
+.footer__banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.footer__logo__img {
+  width: 25%;
+  margin: var(--margin-default);
+  opacity: 0.6;
+}
+
+.footer__copyright {
+  font-size: calc(1.5 * var(--font-size-default));
+  opacity: 0.6;
+}
+
+.footer__button__container {
+  width: 10%;
+}
+
+.footer__button {
+  opacity: 0.35;
+  font-weight: var(--font-weight-bold);
+  width: calc( 4 * var(--font-size-default));
+  height: calc( 6 * var(--font-size-default));
+  border-radius: calc( 1.5 * var(--border-radius));
+}
