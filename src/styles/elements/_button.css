@@ -5,9 +5,10 @@ button {
   font-size: var(--font-size-default);
   padding: 1em;
   width: calc(12 * var(--font-size-default));
+  cursor: pointer;
 }
 
 button:disabled {
   opacity: 0.5;
-  pointer-events: none;
+  cursor: not-allowed;
 }
