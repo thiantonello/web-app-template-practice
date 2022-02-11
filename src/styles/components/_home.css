@@ -1,0 +1,9 @@
+.home {
+  padding: calc(1.5 * var(--margin-default)) calc(8 * var(--margin-default));
+  background-color: transparent;
+}
+
+.home--background {
+  background-image: url("../../assets/images/bg-img.jpg");
+  background-size: cover;
+}
