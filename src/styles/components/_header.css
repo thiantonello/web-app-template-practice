@@ -19,7 +19,7 @@
 
 .header__nav {
   width: 60%;
-  font-size: calc(1.25 * var(--font-size-default));
+  font-size: calc(1.4 * var(--font-size-default));
   display: flex;
   justify-content: space-evenly;
   flex-grow: 2;
@@ -35,10 +35,15 @@
   color: var(--color-cian);
 }
 
-.header__button {
+.header__button-spot {
   width: 20%;
-  font-size: calc(1.25 * var(--font-size-default));
   padding: var(--space-default);
   display: flex;
   justify-content: center;
+}
+
+.header__button {
+  font-size: calc( 1.4 * var(--font-size-default));
+  width: 10em;
+  border-radius: 2em;
 }
