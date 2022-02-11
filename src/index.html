@@ -12,27 +12,51 @@
 </head>
 
 <body>
-  <div>
-    <header class="header">
-      <div class="header__logo">
-        <img class="header__logo__img"
-          src="https://d2arqaup0tn1pp.cloudfront.net/assets/logo_codeminer42-dbb1f25e4ec14c50e7a253c107339d692ee9adce3ac6137706bc166295bc59e3.svg"
-          alt="logo" />
-      </div>
-      <nav class="header__nav">
-        <a class="header__nav__item" href="#">Home</a>
-        <a class="header__nav__item" href="#">About</a>
-        <a class="header__nav__item" href="#">Benefits</a>
-      </nav>
-      <div class="header__button">
-        <button class="button--yellow">Apply Now</button>
-      </div>
-    </header>
+  <div class="home--background">
+    <section class="home" id="home">
+      <header class="header">
+        <div class="header__logo">
+          <img class="header__logo__img"
+            src="https://d2arqaup0tn1pp.cloudfront.net/assets/logo_codeminer42-dbb1f25e4ec14c50e7a253c107339d692ee9adce3ac6137706bc166295bc59e3.svg"
+            alt="logo" />
+        </div>
+        <nav class="header__nav">
+          <a class="header__nav__item" href="#">Home</a>
+          <a class="header__nav__item" href="#">About</a>
+          <a class="header__nav__item" href="#">Benefits</a>
+        </nav>
+        <div class="header__button-spot">
+          <a href="#contact">
+            <button class="button--yellow header__button">Apply Now</a>
+          </a>
+        </div>
+      </header>
 
-    <div class="hero">
-      <h1 class="hero__banner">Trainee Program 2022</h1>
-    </div>
+      <div class="hero">
+        <h1 class="hero__banner">Trainee Program 2022</h1>
+      </div>
+    </section>
   </div>
+
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-container__upper">
+        <h2 class="contact-container__heading">CONTACT US</h2>
+        <p class="contact-container__p">WE ARE OPENED FOR A CONVERSATION. IF YOU HAVE ANY QUESTION WE WILL BE PLEASED TO
+          ANSWER ALL OF THEM</p>
+      </div>
+
+      <div class="contact-container__form">
+        <form action="#" class="contact-container__form">
+          <input type="text" class="contact-container__input" placeholder="How should we call you?">
+          <input type="text" class="contact-container__input" placeholder="Where should we write our anwser to?">
+          <textarea name="#" id="#" cols="120" rows="7" placeholder="What would you like to ask us?"
+            class="contact-container__input contact-container__textarea"></textarea>
+          <button class="button--blue contact__button">SEND</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
 </body>
 
